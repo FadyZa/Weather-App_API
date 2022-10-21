@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <meta name="description" content="weather app show the weather in your area">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <input type="text" placeholder="LOCATION">
+            <div class="btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <button>submit</button>
+            </div>
+        </form>
+
+        <aside>
+            <div class="info">
+                <div class="temp">
+                    <p id="tempc"></p>
+                </div>
+                <div class="city">
+                    <p id="city"></p>
+                    <p id="condition"></p>
+                    <p id="date"></p>
+                </div>
+            </div>
+            <h2>weather details</h2>
+            <div class="details">
+                <p>wind: <span class="wind"></span> <span><i class="fa-solid fa-wind"></i></span></p>
+                <p>Humidity: <span class="humidity"></span> <span><i class="fa-solid fa-droplet"></i></span></p>
+            </div>
+        </aside>
+        <p id="err"></p>
+    </div>
+    <footer>
+        weather app copyright &copy; fady zaky
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
