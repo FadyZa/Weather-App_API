@@ -40,6 +40,7 @@ function handlData(myData){
     window.setTimeout(()=>{
         aside.style.opacity = 1;
         aside.style.transform = "scale(1)";
+        aside.classList.add("animate__animated","animate__fadeInTopRight")
     },400)
     console.log(myData.location.region);
     temp.innerHTML = `${myData.current.temp_c}<sup>&#8451;</sup>`;
